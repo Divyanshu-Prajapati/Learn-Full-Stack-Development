@@ -1,0 +1,505 @@
+@font-face {
+  font-family: abcd;
+  src: url(./sf-pro-text_regular.woff2);
+  font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width: 100%;
+}
+
+#nav{
+    display: flex;
+    background-color: #1D1D1F;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;  
+    height: 40px;
+    position: fixed;
+}
+
+#nav a, #nav i {
+  font-family: abcd;
+  font-size: 10px;
+  color: rgb(176, 165, 165);
+  text-decoration: none;
+}
+#nav i{
+    font-size: 15px;
+}
+
+#infoone{
+    position: absolute;
+    color: white;
+    padding-top: 89px;
+    left: 37%;
+    line-height: 1.3;    
+}
+
+
+/* part button 1 */
+#infoone #first{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#infoone #first:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+}
+
+
+/* partone button2 */
+#infoone #second{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 60px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    left: 15%;
+  
+}
+
+#infoone #second:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}
+
+#infoone h1{
+    font-family:abcd;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+
+}
+#infoone h3{
+    text-align: center;
+    font-weight: 400;
+    font-family: abcd;
+}
+
+a,i{
+    cursor: pointer;
+}
+
+
+#imagediv{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
+
+#firstimage{
+      object-fit:cover;
+      width: 100%;
+      height: 100%;
+}
+
+button{
+    margin-top: 15px;
+}
+
+#firstimage{
+background-image: url(
+https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+background-position: center 95%;
+background-size: cover;
+width: 100%;
+}
+
+
+/* for part 2--> */
+#secondimage{
+background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+background-position: center 85%;
+background-size: cover;
+display: flex;
+justify-content: center;
+height: 530px;
+width: 100%;
+}
+
+#infotwo{
+    position: absolute;
+    color: black;
+    padding-top: 50px;
+    left: 37%;
+    line-height: 1.3;   
+}
+
+#infotwo #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#infotwo #firstbutton:hover{
+    cursor: pointer;
+}
+
+#infotwo #secondbutton{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 60px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+  
+}
+
+#infotwo #secondbutton:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}
+
+#parttwo h1{
+    font-family:abcd;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+#parttwo p{
+    font-family:abcd;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+
+/* //for Part 3 // */
+
+#partthree{
+    width: 100%;
+}
+
+#thirdimage{
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_mediumtall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+}
+
+#infothree{
+    position: absolute;
+    left: 37%;
+    padding-top: 50px;
+    font-family: abcd;   
+}
+#infothree h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+#infothree h3{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+#infothree #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#infothree #firstbutton:hover{
+    cursor: pointer;
+}
+
+#infothree #secondbutton{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 60px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+  
+}
+
+#infothree #secondbutton:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}
+
+
+/* // partfour --> */
+/* //part1--> */
+#partfour1{
+    width: 49%;
+    height: 300px;
+}
+#imagefour{
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
+    background-position: center 60%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+#partfourinfo1{
+    position: absolute;
+    left: 15%;
+    padding-top: 25px;
+    font-family: abcd;
+    line-height: 1.5;
+}
+
+#partfourinfo1 p{
+    text-align: center;
+    font-weight: 100;
+}
+
+#partfourinfo1 #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#partfourinfo1 #firstbutton:hover{
+    cursor: pointer;
+}
+
+#partfourinfo1 #secondbutton{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+  
+}
+
+#partfourinfo1 #secondbutton:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}
+
+
+/* //partfour2 */
+#partfour2{
+    width: 49%;
+    height: 300px;
+}
+#imagefive{
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+#partfourinfo2{
+    position: absolute;
+    left: 65%;
+    padding-top: 20px;
+    font-family: abcd;
+    
+}
+
+#partfourinfo2 p{
+    text-align: center;
+    font-weight: 100;
+}
+
+#partfourinfo2 #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#partfourinfo2 #firstbutton:hover{
+    cursor: pointer;
+}
+
+#partfourinfo2 #secondbutton{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+  
+}
+
+#partfourinfo2 #secondbutton:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}
+
+#partfourline1{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+ /* //line 2 for partfour */
+
+#partfourline2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+#partfour3{ 
+    width: 49%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#imagesix{
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/education/promo_edu__efkxh2h1luoi_medium_2x.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+#partfourinfo3{
+    font-family: abcd;
+    position: absolute;
+    left: 20%;
+    padding-top: 200px;
+    font-family: abcd;
+    line-height: 1.5;
+    color: white;
+}
+#partfourinfo3 #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#partfourinfo2 #firstbutton:hover{
+    cursor: pointer;
+}
+
+
+
+/* //part 4// */
+
+#partfour4{ 
+    width: 49%;
+    height: 300px;
+    margin-top: 50px;
+}
+#imageseven{
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_medium_2x.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+#partfourinfo4{
+    position: absolute;
+    left: 65%;
+    padding-top: 20px;
+    font-family: abcd;
+}
+
+#partfourinfo4 p{
+    text-align: center;
+}
+#partfourinfo4 #firstbutton{
+    color: white;
+    background-color: #0171E3;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+#partfourinfo4 #firstbutton:hover{
+    cursor: pointer;
+}
+#partfourinfo4 #secondbutton{
+    border: 1px solid #0171E3;
+    text-align: center;
+    color: #0171E3;
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 15%;
+  
+}
+
+#partfourinfo4 #secondbutton:hover{
+    cursor: pointer;
+    background-color: #0171E3;
+    color: white;
+}

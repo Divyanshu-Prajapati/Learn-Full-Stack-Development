@@ -1,0 +1,70 @@
+#main{
+    width: 100%;
+    height: 100vh;
+   background-color: blanchedalmond;
+   padding: 15px;
+   background-image: url(https://media.istockphoto.com/id/1280142071/vector/abstract-gray-vector-background.jpg?s=612x612&w=0&k=20&c=Thb_PQvUjYhtVhaJTIedHCT_KjL1clgAy2XhOa1AEDQ=);
+   background-size: cover;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+#card{
+     width: 220px;
+     height: 300px;
+    border: 2px solid black;
+    background-color: #37374a;
+   margin: 10px;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+#card button{
+    background-color: skyblue;
+    height: 8%;
+    width: 45%;
+    border-radius: 5px;
+}
+
+#card button:hover{
+    background-color: white;
+    border: 2px solid rgb(52, 161, 204);
+    cursor: pointer;
+    color: rgb(52, 161, 204);
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    position:relative;
+}
+
+#card p{
+    text-align: center;
+    color: rgba(255, 255, 255,0.5);
+}
+
+#card:hover{
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+        transform: translateY(-2px); /*isse card 2px uper -y direction me chala jayega  */
+}
+
+#like{
+    display: inline;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+#like:hover{
+    cursor: pointer;
+}

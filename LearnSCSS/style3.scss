@@ -1,0 +1,35 @@
+@import "button";
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+@mixin center(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    @include center();
+    section{
+        @include center();
+        h1{
+            color: rgb(13, 20, 99);
+        }
+        .red{
+            @include button-style(black,wheat,15px);
+        }
+        .blue{
+            @include button-style(white,rgb(5, 5, 65),20px)
+        }
+    }
+}

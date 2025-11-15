@@ -1,0 +1,16 @@
+DOM -> Document object model
+isko frontend ki javascript bol skte hai 
+
+Dom 4 pillars->
+1-> Selection of an Element
+2-> changing HTML
+3-> Changing CSS
+4->Events Listener
+
+
+html ke root ko documnt bolte hai 
+
+document.querySelector('element name');
+innerHtml-> text ko cbange karta hai like agar likha hai '<h1>hello<h1> to ye hello hi print karayega
+textContent-> ye tag ko bhi print kar deta haaiii...
+

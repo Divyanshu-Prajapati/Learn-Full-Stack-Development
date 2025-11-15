@@ -1,0 +1,92 @@
+@font-face {
+    font-family:abcd;
+    src: url(./sf-pro-text_regular.woff2);
+    font-weight: 400;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: abcd;
+    line-height: 1.7;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 94%;
+    display: flex;
+}
+header{
+    height:6%;
+    text-align: center;
+    padding:7px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #F2E8DC;
+}
+div{
+    flex-grow: 1;
+}
+main>div{
+    min-width:0;
+    border: 1px solid black;
+    flex-grow:1;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+}
+textarea{
+    width: 80%;
+}
+div h1{
+    font-size: 15px;
+    text-align: center;
+}
+main>div:hover {
+    flex-grow:4;
+    font-size: 18px;
+    text-align: center;
+}
+
+div:hover h1{
+    font-size: 23px;
+}
+div:hover p{
+    font-size: 20px;
+}
+#div1{
+    background-color: #BFDDF7;
+  
+}
+#div2{
+    background-color:#C8E6D8;
+}
+#div3{
+    background-color: #FFF2B8;
+}
+#div4{
+    background-color: #FFDAB3;
+}
+
+#div5{
+    background-color: #F7C9D9;
+}
+#div6{
+    background-color: #DDD6FF;
+}
+#div7{
+    background-color: #EDECE9;
+}
+
+div p{
+    font-weight: 800;
+}
+div:hover textarea{
+    height: 40%;
+}

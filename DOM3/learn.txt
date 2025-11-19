@@ -1,0 +1,10 @@
+cereate element -> js ke throunngh koi element create kar sakte hai using 
+document.createElement('h1');
+
+appendChild-> means jo chize hai wo to rahega hi naya uske andar add kar dega
+
+
+you want button chota bada ho click karne pe---->
+button:active{
+    scale:0.95
+}

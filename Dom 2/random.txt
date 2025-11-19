@@ -1,0 +1,4 @@
+Math.random-> ye ek random number generater karta hai aur iski range (0 to 1) hoti hai 
+ab ye value sari point s ya decimao wali hongi ab ise hum floor me convert karenge so point ya decimal hat jayega 
+var a=Math.random()
+var b=Math.floor(a)

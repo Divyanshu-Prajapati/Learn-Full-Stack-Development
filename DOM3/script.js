@@ -42,8 +42,12 @@ window.addEventListener('mousemove',function(){
     div.style.left= l + '%';
     div.style.top= t + '%';
     div.classList.add('circle')
-    main.appendChild(div)
+    this.setTimeout(function(){
+        main.appendChild(div)
+    },500)
+    
 })
+
 btn.addEventListener('click',function(){
     let circles=document.querySelectorAll('.circle');
     circles.forEach(function(c){

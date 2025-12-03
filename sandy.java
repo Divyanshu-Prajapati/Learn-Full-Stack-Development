@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class sandy {
     public static void main(String[] args) {
-        int n=8;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
         helper(n);
     }
     public static void helper(int n){

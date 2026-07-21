@@ -1,0 +1,29 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+.card{
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.card img{
+  object-fit: cover;
+  position: relative;
+  height: 60%;
+}
+
+.card h2{
+
+}

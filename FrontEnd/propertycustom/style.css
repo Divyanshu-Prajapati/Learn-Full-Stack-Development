@@ -1,0 +1,35 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,
+body {
+     height: 100%;
+     width: 100%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bgcolor);
+    animation: changecolor 5s;
+}
+
+@property --bgcolor{
+    syntax: "<color>";
+    initial-value: rgb(32, 22, 184);
+    inherits: false;
+}
+@keyframes changecolor {
+    from{
+        --bgcolor:red;
+    }
+    to{
+        --bgcolor:blue;
+    }
+}

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+button:active{
+    scale: 0.9;
+    margin: 5px;
+}

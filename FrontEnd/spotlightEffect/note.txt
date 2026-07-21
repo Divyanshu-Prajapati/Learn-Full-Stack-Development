@@ -1,0 +1,32 @@
+gradient--> mix the multiple color
+1->Linear gradient-> background:linear-gradient(Direction,color1,color2,....,color n)
+Background:linear-gradient(function Direction,colors);
+Background:linear-gradient(in oklab or in hsl Direction,colors);
+function means-> color kaise mix hoke appears hone chahiye .
+
+2-> Radial Gradient->make circle like effect -> ye ek radius me gradient banata hai 
+background:radial-gradient(radius,colors...);
+background:radial-gradient(300px at 100px 200px,red,blue);
+background:radial-gradient(radius at x place y place ,red,blue);
+x place, y place -> from the left top corner
+
+
+
+css variable-->
+:root{
+
+}
+
+variable ka naam start hoga  -> -- double hyphen
+use karne ke liye -> var(--variable name);
+example->
+:root{
+    --red:red;
+}
+.box{
+    backgroud-color:var(--red);
+}
+
+
+setProperty-> helps to change the value of the root variable.
+
